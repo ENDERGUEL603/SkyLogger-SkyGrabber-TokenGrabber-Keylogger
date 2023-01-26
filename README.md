@@ -1,5 +1,5 @@
 <h1 align="center"> SkyLogger </h1> 
-<p align= "center"> <img  src="https://raw.githubusercontent.com/Skyrlanie/SkyLogger/main/img/avatar.jpg"width="300"><br><br>
+<p align= "center"> <img  src="https://raw.githubusercontent.com/Skyrlanie/SkyLogger-SkyGrabber-TokenGrabber-Keylogger/main/img/avatar.jpg"width="300"><br><br>
 
 ## Features:
 » KeyLogger
